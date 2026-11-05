@@ -1,0 +1,150 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8ef;
+    color: #382318;
+}
+
+header {
+    background: #382318;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #e8bd88;
+}
+
+.hero {
+    min-height: 350px;
+    padding: 70px 8%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #e9d0b0, #fff3df);
+}
+
+.hero h1 {
+    font-size: 42px;
+    max-width: 550px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background: #70452b;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#menu, #contact {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+.menu-buttons {
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+    background: #70452b;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    background: #a16a42;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.menu-card {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000018;
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+}
+
+.drink-image {
+    font-size: 55px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #70452b;
+}
+
+#message {
+    font-weight: bold;
+    min-height: 24px;
+    color: #32633b;
+}
+
+footer {
+    background: #382318;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    header {
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px 0 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .menu-card {
+        width: 100%;
+    }
+}

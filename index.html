@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>☕ Coffee House</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Start Your Day With Fresh Coffee</h1>
+            <p>Freshly brewed coffee, warm moments, and happy vibes.</p>
+            <a href="#menu" class="button">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-buttons">
+            <button id="hotBtn">Hot Drinks</button>
+            <button id="coldBtn">Cold Drinks</button>
+        </div>
+
+        <div class="menu-container" id="menuItems">
+
+            <div class="menu-card" data-type="hot">
+                <div class="drink-image">☕</div>
+                <h3>Cappuccino</h3>
+                <p>Rich espresso with creamy milk foam.</p>
+                <p class="price">₹120</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card" data-type="hot">
+                <div class="drink-image">🍵</div>
+                <h3>Hot Chocolate</h3>
+                <p>Warm chocolate for a cozy moment.</p>
+                <p class="price">₹150</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card" data-type="cold">
+                <div class="drink-image">🧋</div>
+                <h3>Cold Coffee</h3>
+                <p>Chilled coffee with a creamy taste.</p>
+                <p class="price">₹140</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card" data-type="cold">
+                <div class="drink-image">🥤</div>
+                <h3>Iced Latte</h3>
+                <p>Espresso, milk, and refreshing ice.</p>
+                <p class="price">₹160</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+        </div>
+
+        <p id="message" aria-live="polite"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Visit Our Coffee House</h2>
+        <p>Fresh coffee and good vibes await you!</p>
+        <p>Location: Your City, India</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Coffee House | Made with ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
