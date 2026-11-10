@@ -9,7 +9,7 @@ The Coffee Shop Landing Page is a beginner-level web development project for Sem
 |   1    | Dipesh Kumar Kumawat | 202610101200037 |
 |   2    | Vikas Mewara         | 202610101200038 |
 |   3    | Amit Tiwari          | 202610101200039 |
-## Technologies Used
+## Technology used
 - HTML — webpage structure
 - CSS — styling, layout, hover effects, and responsive design
 - JavaScript — menu toggle and order confirmation
