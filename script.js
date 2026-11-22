@@ -22,12 +22,27 @@ coldBtn.addEventListener("click", function () {
     message.textContent = "Showing Cold Drinks";
 });
 
+const orderPopup = document.getElementById("orderPopup");
+const orderMessage = document.getElementById("orderMessage");
+const closePopupBtn = document.getElementById("closePopupBtn");
+const closeBtn = document.querySelector(".close-btn");
+
 document.querySelectorAll(".order-btn").forEach(function (button) {
     button.addEventListener("click", function () {
+
         const drinkName =
             this.parentElement.querySelector("h3").textContent;
 
-        message.textContent =
-            drinkName + " selected! Thank you for your order.";
+        orderMessage.textContent =
+            "Your " + drinkName + " has been ordered successfully!";
+
+        orderPopup.style.display = "flex";
     });
+});
+closePopupBtn.addEventListener("click", function () {
+    orderPopup.style.display = "none";
+});
+
+closeBtn.addEventListener("click", function () {
+    orderPopup.style.display = "none";
 });
