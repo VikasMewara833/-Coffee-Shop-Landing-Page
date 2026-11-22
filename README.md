@@ -1,7 +1,7 @@
-# Coffee Shop Landing Page
+## Coffee Shop Landing Page
 
 ## Project Description
-The Coffee Shop Landing Page is a beginner-level web development project for Semester 1 B.Tech Computer Science. It aims to create an attractive and user-friendly landing page for a coffee shop using HTML, CSS, and basic JavaScript.
+The Coffee Shop Landing Page is a beginner-level Web development project for Semester 1 B.Tech Computer Science. It aims to create an attractive and user-friendly landing page for a coffee shop using HTML, CSS, and basic JavaScript.
 
 ## Group Members
 | S. No. | Student Name         | Roll Number     |
@@ -9,10 +9,10 @@ The Coffee Shop Landing Page is a beginner-level web development project for Sem
 |   1    | Dipesh Kumar Kumawat | 202610101200037 |
 |   2    | Vikas Mewara         | 202610101200038 |
 |   3    | Amit Tiwari          | 202610101200039 |
-## Technologies Used
-- HTML — webpage structure
-- CSS — styling, layout, hover effects, and responsive design
-- JavaScript — menu toggle and order confirmation
+## Technology used
+* HTML — webpage structure
+* CSS — styling, layout, hover effects, and responsive design
+*JavaScript — menu toggle and order confirmation
 
 ## Planned Features
 - Hero banner section
